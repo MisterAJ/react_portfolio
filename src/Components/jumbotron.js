@@ -10,6 +10,7 @@ const ImageDiv = styled.div`
 `;
 
 const Title = styled.h1`
+  display: inline-block;
   padding: 200px 0;
   text-align: center;
   font-family: Arial, Helvetica Neue, Helvetica, sans-serif;
@@ -22,11 +23,18 @@ const Title = styled.h1`
   color: #fffafa;
 `;
 
+const Line = styled.div`
+  width: 100%;
+  background-color: #4f4f4f;
+  height: 3px;
+`;
+
 class Jumbotron extends Component {
   render() {
     return (
       <ImageDiv>
         <Title>Hi, I'm AJ Longstreet. A FullStack JavaScript developer.</Title>
+        <Line />
       </ImageDiv>
     );
   }
