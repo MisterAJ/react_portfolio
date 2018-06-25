@@ -10,7 +10,7 @@ const StyledDiv = styled.div`
 `;
 
 const StyledFlexContainer = styled.div`
-  width: 90%;
+  width: 100%;
   min-height: 100vh;
   max-width: 1200px;
   margin: 15px auto;
@@ -20,25 +20,38 @@ const StyledFlexContainer = styled.div`
 
 const StyledColumn = styled.div`
   width: 32%;
-  max-width: 500px;
+  max-width: 300px;
   margin: auto;
   border-radius: 10px;
   background-color: rgba(190, 190, 190, 0.95);
   font-family: Arial, Helvetica Neue, Helvetica, sans-serif;
   box-shadow: 8px 10px 8px rgba(75, 75, 75, 0.8);
+
+  &:hover {
+    background-color: rgba(210, 210, 210, 0.95);
+  }
 `;
 
 const StyledHeader = styled.h3`
   color: #2f3036;
   font-family: Arial, Helvetica Neue, Helvetica, sans-serif;
   text-transform: uppercase;
-  text-shadow: 1px 1px 1px #2d2d2d;
+  text-shadow: 1px 1px 1px rgb(128, 128, 128, 0.7);
 `;
 
 const StyledP = styled.p`
   color: #2f3036;
   font-family: Arial, Helvetica Neue, Helvetica, sans-serif;
   text-shadow: 1px 1px 1px #2d2d2d;
+  transition: font-size 0.2s;
+
+  &:hover {
+    font-size: 1.4rem;
+  }
+
+  @media (max-width: 400px) {
+    font-size: 0.9rem;
+  }
 `;
 
 class Skills extends Component {

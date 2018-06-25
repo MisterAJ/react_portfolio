@@ -12,14 +12,13 @@ const ImageDiv = styled.div`
 
 const Title = styled.h1`
   display: inline-block;
-  padding: 200px 0;
+  padding: 40vh 0px;
   text-align: center;
   font-family: Arial, Helvetica Neue, Helvetica, sans-serif;
   font-size: 36px;
   font-style: normal;
   font-variant: normal;
   font-weight: 500;
-  line-height: 50vh;
   vertical-align: middle;
   text-shadow: 1px 1px rgb(88, 88, 88, 0.8);
   color: #fffafa;

@@ -4,8 +4,7 @@ import styled from "styled-components";
 const StyledFooter = styled.div`
   width: 100%;
   display: flex;
-  justify-content: space-between;
-  background-color: rgba(190, 190, 190);
+  background-color: #f4f4f4;
 `;
 
 const StyledContainer = styled.div`
@@ -13,11 +12,19 @@ const StyledContainer = styled.div`
   margin: auto;
   display: flex;
   justify-content: space-between;
+
+  @media (max-width: 600px) {
+    width: 100%;
+  }
 `;
 
 const StyledImage = styled.img`
   width: 40px;
   padding: 5px;
+
+  &:hover {
+    opacity: 0.6;
+  }
 `;
 
 class Footer extends Component {
