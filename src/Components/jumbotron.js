@@ -3,6 +3,7 @@ import styled from "styled-components";
 
 const ImageDiv = styled.div`
   width: 100%;
+  height: 100vh;
   background: url("./images/coding.jpg");
   background-repeat: no-repeat;
   background-size: cover;
@@ -18,15 +19,10 @@ const Title = styled.h1`
   font-style: normal;
   font-variant: normal;
   font-weight: 500;
-  line-height: 38px;
+  line-height: 50vh;
+  vertical-align: middle;
   text-shadow: 1px 1px #555;
   color: #fffafa;
-`;
-
-const Line = styled.div`
-  width: 100%;
-  background-color: #4f4f4f;
-  height: 3px;
 `;
 
 class Jumbotron extends Component {
@@ -34,7 +30,6 @@ class Jumbotron extends Component {
     return (
       <ImageDiv>
         <Title>Hi, I'm AJ Longstreet. A FullStack JavaScript developer.</Title>
-        <Line />
       </ImageDiv>
     );
   }

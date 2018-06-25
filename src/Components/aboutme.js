@@ -4,6 +4,7 @@ import styled from "styled-components";
 
 const StyledContainer = styled.div`
   width: 100%;
+  min-height: 100vh;
   padding: 50px 0;
   background: url("./images/trail.jpg");
   background-repeat: no-repeat;
@@ -27,6 +28,8 @@ const StyledP = styled.p`
   display: inline-block;
   color: #2f3036;
   font-family: Arial, Helvetica Neue, Helvetica, sans-serif;
+  text-shadow: 1px 1px 1px rgb(128, 128, 128, 0.7);
+  font-size: 1.1rem;
 `;
 
 class AboutMe extends Component {
@@ -37,7 +40,7 @@ class AboutMe extends Component {
           <StyledP>
             Thanks for stopping by my page! My name is AJ, but you probably
             already know that. I live in a little place called Guelph, Ontario.
-            It's a pretty cool spot. Quite shops and diverse culture make it a
+            It's a pretty cool spot. Quaint shops and diverse culture make it a
             pleasure to call this city my home.
             <br />
             <br />
@@ -65,10 +68,10 @@ class AboutMe extends Component {
             interface for their systems. So I started learning.
             <br />
             <br />
-            Then I fell in love.
+            Then I fell in love with the process.
             <br />
             <br />
-            I started with Java and after a few months realised that although I
+            I started with Java and after a few months realized that although I
             got to solve some interesting problems, I didn't get to reach out to
             users directly. So I moved over to JavaScript. Being able to bridge
             the gap between machine and user through HTML/CSS/JS was awesome. I
