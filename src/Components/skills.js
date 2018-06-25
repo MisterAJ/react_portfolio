@@ -11,6 +11,7 @@ const StyledDiv = styled.div`
 
 const StyledFlexContainer = styled.div`
   width: 90%;
+  min-height: 100vh;
   max-width: 1200px;
   margin: 15px auto;
   display: flex;
@@ -21,7 +22,7 @@ const StyledColumn = styled.div`
   width: 32%;
   max-width: 500px;
   margin: auto;
-  border-radius: 10%;
+  border-radius: 10px;
   background-color: rgba(190, 190, 190, 0.95);
   font-family: Arial, Helvetica Neue, Helvetica, sans-serif;
   box-shadow: 8px 10px 8px rgba(75, 75, 75, 0.8);
@@ -30,11 +31,14 @@ const StyledColumn = styled.div`
 const StyledHeader = styled.h3`
   color: #2f3036;
   font-family: Arial, Helvetica Neue, Helvetica, sans-serif;
+  text-transform: uppercase;
+  text-shadow: 1px 1px 1px #2d2d2d;
 `;
 
 const StyledP = styled.p`
   color: #2f3036;
   font-family: Arial, Helvetica Neue, Helvetica, sans-serif;
+  text-shadow: 1px 1px 1px #2d2d2d;
 `;
 
 class Skills extends Component {
@@ -68,7 +72,7 @@ class Skills extends Component {
           </StyledColumn>
           <StyledColumn>
             <StyledHeader>Related Skills</StyledHeader>
-            <StyledP>Troubleshooting</StyledP>
+            <StyledP>Debugging</StyledP>
             <StyledP>Project Management</StyledP>
             <StyledP>Mentoring</StyledP>
             <StyledP>System Administration</StyledP>
