@@ -3,7 +3,7 @@ import styled from "styled-components";
 
 const StyledDiv = styled.div`
   padding: 15px;
-  background: url("./images/deck.jpeg");
+  background: url("./images/deck.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
