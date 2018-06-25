@@ -21,7 +21,7 @@ const Title = styled.h1`
   font-weight: 500;
   line-height: 50vh;
   vertical-align: middle;
-  text-shadow: 1px 1px #555;
+  text-shadow: 1px 1px rgb(88, 88, 88, 0.8);
   color: #fffafa;
 `;
 
