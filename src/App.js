@@ -1,9 +1,10 @@
 import React, { Component } from "react";
 import "./App.css";
 
+import AboutMe from "./Components/aboutme";
+import Footer from "./Components/footer";
 import Jumbotron from "./Components/jumbotron";
 import Skills from "./Components/skills";
-import Footer from "./Components/footer";
 
 class App extends Component {
   render() {
@@ -11,6 +12,7 @@ class App extends Component {
       <div className="App">
         <Jumbotron />
         <Skills />
+        <AboutMe />
         <Footer />
       </div>
     );
