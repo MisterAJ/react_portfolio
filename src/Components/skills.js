@@ -3,7 +3,7 @@ import styled from "styled-components";
 
 const StyledDiv = styled.div`
   padding: 15px;
-  background: url("./images/deck.jpeg");
+  background: url("./images/deck.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -20,7 +20,8 @@ const StyledFlexContainer = styled.div`
 const StyledColumn = styled.div`
   width: 32%;
   max-width: 500px;
-  border-radius: 2%;
+  margin: auto;
+  border-radius: 10%;
   background-color: rgba(190, 190, 190, 0.95);
   font-family: Arial, Helvetica Neue, Helvetica, sans-serif;
   box-shadow: 8px 10px 8px rgba(75, 75, 75, 0.8);

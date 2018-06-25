@@ -3,7 +3,7 @@ import styled from "styled-components";
 
 const ImageDiv = styled.div`
   width: 100%;
-  background: url("./images/coding.jpeg");
+  background: url("./images/coding.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
