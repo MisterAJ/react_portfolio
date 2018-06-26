@@ -88,7 +88,7 @@ class AboutMe extends Component {
             with the Treehouse FullStack JavaScript Techdegree program in June
             of 2017 doing peer review and was brought on as a student success
             specialist a few months later. Mentoring the students at Treehouse
-            as given me valuable insight into the many different ways that
+            has given me valuable insight into the many different ways that
             people can approach a problem and where they tend to trip up.
             Flexing my debugging skills to get them through their projects has
             been great practice. Along with the time spent at Prodigy and
