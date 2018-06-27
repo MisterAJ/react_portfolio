@@ -4,7 +4,7 @@ import styled from "styled-components";
 const StyledFooter = styled.div`
   width: 100%;
   display: flex;
-  background-color: #f4f4f4;
+  background-color: #d4d4d4;
 `;
 
 const StyledContainer = styled.div`
@@ -20,7 +20,7 @@ const StyledContainer = styled.div`
 
 const StyledImage = styled.img`
   width: 40px;
-  padding: 5px;
+  padding: 15px 5px;
 
   &:hover {
     opacity: 0.6;
