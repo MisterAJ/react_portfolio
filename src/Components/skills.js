@@ -23,12 +23,12 @@ const StyledColumn = styled.div`
   max-width: 300px;
   margin: auto;
   border-radius: 10px;
-  background-color: rgba(190, 190, 190, 0.95);
+  background-color: rgba(220, 220, 220, 0.95);
   font-family: Arial, Helvetica Neue, Helvetica, sans-serif;
   box-shadow: 8px 10px 8px rgba(75, 75, 75, 0.8);
 
   &:hover {
-    background-color: rgba(210, 210, 210, 0.95);
+    background-color: rgba(230, 230, 230, 0.95);
   }
 `;
 
@@ -44,10 +44,6 @@ const StyledP = styled.p`
   font-family: Arial, Helvetica Neue, Helvetica, sans-serif;
   text-shadow: 1px 1px 1px #2d2d2d;
   transition: font-size 0.2s;
-
-  &:hover {
-    font-size: 1.4rem;
-  }
 
   @media (max-width: 400px) {
     font-size: 0.9rem;
